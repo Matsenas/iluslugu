@@ -1,0 +1,347 @@
+/* Background color */
+body.loggedin-page {
+  background: none !important;
+  background-color: #ebebeb !important;
+  background-image: url(https://www.digilugu.ee/resources/images/e-tervis.svg) !important;
+  background-repeat: no-repeat !important;
+  height: 50% !important;
+}
+
+body.login-page {
+  overflow-y: scroll !important;
+  background: none !important;
+  background-color: #ebebeb !important;
+  color: black !important;
+}
+
+.sec-row li .sec-txt {
+  background: white !important;
+}
+
+/* Header */
+body .header-bg {
+  background-color: white !important;
+  height: auto !important;
+  /*min-height: 100px !important;*/
+}
+
+body .header-bg .header {
+  max-width: 960px !important;
+  margin: 0 auto !important;
+  padding: 5px 0 0 0 !important;
+}
+
+body .header-bg .header:nth-child(2) {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+body .header-bg>.right-col {
+  max-width: 960px !important;
+  margin: 0 auto !important;
+  padding: 0 0 20px 0 !important;
+}
+
+.header div.accessibility-dropdown {
+  margin: 0 !important;
+}
+
+.header button.accessibility {
+  height: auto !important;
+  font-size: 14px !important;
+  color: #666F70 !important;
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.represents {
+  font-size: 14px !important;
+  color: #666F70 !important;
+}
+
+.messages,
+.header .dropdown-container .l,
+.logout-button {
+  border-radius: 7px !important;
+  overflow: hidden !important;
+}
+
+#nav {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: auto !important;
+  height: auto !important;
+  max-width: none !important;
+  display: flex !important;
+  justify-content: flex-start !important;
+}
+
+#nav ul {
+  float: right !important;
+  margin: 0 !important;
+}
+
+#nav ul li {
+  min-width: 100px !important;
+  text-align: left !important;
+}
+
+#nav ul a {
+  margin: 0 !important;
+  padding: 0 !important;
+  background: none !important;
+  color: #666F70 !important;
+  font-size: 14px !important;
+}
+
+/* Minu e-tervis ja breadcrums */
+.heading {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: flex-end !important;
+}
+
+.heading h1.logo {
+  background: none !important;
+}
+
+h1.logo span {
+  color: black !important;
+  font-size: 42px;
+  font-weight: 600;
+}
+
+#heading-table h1 {
+  font-size: 42px !important;
+}
+
+.heading .breadcrumbs {
+  padding: 0 !important;
+  width: auto !important;
+  max-width: 50% !important;
+}
+
+.heading .breadcrumbs ul {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.heading .breadcrumbs li {
+  margin: 0 !important;
+}
+
+.heading .breadcrumbs li.home a span {
+  padding-right: 0 !important;
+}
+
+.heading .breadcrumbs li a,
+.heading .breadcrumbs li>span {
+  background: none !important;
+  padding: 0 !important;
+  width: auto !important;
+  max-width: 200px !important;
+  font-size: 14px !important;
+  margin: auto 5px !important;
+}
+
+.heading .breadcrumbs li a {
+  text-decoration: none !important;
+  color: #666F70 !important;
+}
+
+.heading .breadcrumbs li a:hover {
+  text-decoration: underline !important;
+}
+
+.heading .breadcrumbs li>span {
+  color: black !important;
+  font-size: 15px !important;
+}
+
+.breadcrumbs ul {
+  height: 100%;
+}
+
+.arrow-right {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+/* Sidebar ja sisu */
+.sec-wrapper {
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+/* Terviseandmed */
+#my-desktop {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+}
+
+#healthRecordBigBox {
+  width: 100% !important;
+}
+
+#healthRecordBigBox>div.sec-txt {
+  padding-left: 1.3rem !important;
+  padding-top: 1.3rem !important;
+}
+
+h2#health-data-title {
+  font-size: 36px !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.sec-row li ul {
+  font-size: 18px !important;
+}
+
+.sec-row li ul .submitToLink {
+  font-size: 18px !important;
+  height: 20.56px !important;
+  text-decoration: none !important;
+}
+
+.sec-row li ul .submitToLink:hover {
+  text-decoration: underline !important;
+}
+
+.sec-row li ul ol li a {
+  font-size: 14px !important;
+  color: rgb(108, 108, 108) !important;
+}
+
+.sec-row li ul li a {
+  text-decoration: none !important;
+}
+
+.sec-row li ul li a:hover {
+  text-decoration: underline !important;
+}
+
+.submitToLink {
+  color: black !important;
+}
+
+#health-data-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#health-data-btns li div {
+  padding-right: 10px;
+}
+
+/* Minu andmed avalehel */
+.sidebar {
+  width: 45% !important;
+  margin: 0 10px;
+}
+
+#myData {
+  padding: 0 !important;
+}
+
+#myData:first-child {
+  padding-left: 1.3rem !important;
+  padding-top: 1.3rem !important;
+  padding-bottom: 0 !important;
+  padding-right: 0 !important;
+}
+
+.sec-row li .sec-txt .text-height-limited:not(.small-box) {
+  padding: 0 !important;
+}
+
+#myData h2 {
+  font-size: 32px !important;
+}
+
+#myData p {
+  font-size: 18px !important;
+  margin-bottom: 20px !important;
+}
+
+#family-doctor {
+  margin-top: 10px !important;
+}
+
+#myData .btn-update {
+  position: relative !important;
+  max-width: none !important;
+  width: fit-content !important;
+  margin: 20px 0 !important;
+}
+
+.sec-row li.small-wide.strong .sec-txt h2 {
+  text-transform: lowercase;
+  font-weight: 900 !important;
+}
+
+.sec-row li.small-wide.strong .sec-txt h2:first-letter {
+  text-transform: uppercase;
+}
+
+.sec-row li.small-wide .sec-txt {
+  max-width: 200px !important;
+}
+
+.sec-row li .sec-txt {
+  border-radius: 7px !important;
+  padding: 0 10px !important;
+}
+
+.sec-row li .sec-txt.redBoxButton {
+  border: solid 5px #ee1c24 !important;
+  background-color: #ee1c24 !important;
+}
+
+.sec-row li .sec-txt.greenBoxButton {
+  border: solid 5px #409a3c !important;
+  background-color: #409a3c !important;
+}
+
+.sec-row li .sec-txt.darkBlueBoxButton {
+  border: solid 5px #0f6dad !important;
+  background-color: #0f6dad !important;
+}
+
+.sec-row li .sec-txt.blueBoxButton {
+  border: solid 5px #6495ED !important;
+  background-color: #6495ED !important;
+}
+
+
+/* Minu andmed */
+.sec-wrapper .personalData {
+  width: 100% !important;
+}
+
+.sec-wrapper .personalData ul {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  gap: 10px !important;
+}
+
+.sec-wrapper .personalData ul li {
+  width: 300px !important;
+}
+
+/* Teavitused */
+.notification-wrapper {
+  width: 100% !important;
+}
